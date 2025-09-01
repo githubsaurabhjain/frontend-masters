@@ -1,0 +1,36 @@
+body {
+  background: #f6f7fb;
+}
+
+.hrz-line,
+.progress {
+  height: 3px;
+  background: rgb(122, 130, 130);
+}
+
+.container {
+  position: relative;
+}
+
+.progress-wrapper {
+  display: flex;
+  justify-content: space-between;
+  top: -15px;
+  width: 100%;
+  position: absolute;
+}
+
+.counter {
+  border: 2px solid #368395;
+  background: white;
+  padding: 7px;
+}
+
+.btn {
+  background: #368395;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 3rem;
+  color: #f6f7fb;
+  cursor: pointer;
+}
