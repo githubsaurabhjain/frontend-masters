@@ -1,0 +1,19 @@
+body {
+  background: rgb(147, 98, 147);
+  height: 100vh;
+}
+.ipt {
+  padding: 1em;
+}
+.btn {
+  cursor: pointer;
+  padding: 1em;
+}
+
+.container {
+  display: flex;
+}
+
+.active {
+  display: block !important;
+}
