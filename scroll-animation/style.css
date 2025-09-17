@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background: rgb(143, 136, 136);
+  flex-direction: column;
+}
+.con {
+  width: 400px;
+  height: 400px;
+  background: rgb(83, 83, 145);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 40px;
+
+  /* transform: translateX(100vw); */
+  opacity: 0;
+  animation: slideInRight 1s ease forwards;
+}
+
+.con:nth-of-type(even) {
+  transform: translateX(-100vw);
+  animation: slideInLeft 1s ease forwards;
+}
+
+/* Animation keyframes */
+@keyframes slideInRight {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
