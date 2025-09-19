@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  width: 800px;
+  height: 300px;
+  border: 3px solid black;
+}
+
+p {
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+}
+
+input {
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+  font-size: 37px;
+  font-size: 75px;
+  text-align: center;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -8,7 +8,6 @@ let totalSteps = 3;
 prev.setAttribute("disabled", "");
 
 prev.addEventListener("click", () => {
-  console.log("here");
   if (currentStep >= 0) {
     currentStep--;
   }
